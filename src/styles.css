@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  gap: 10px;
+  background-color: #e5e5e5;
+  padding-left: 30px;
+}
+.navbar a {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  display: flex;
+}
+.product img {
+  height: 100px;
+}
+.cartContainer {
+  display: flex;
+}
+.cartItemContainer {
+  display: flex;
+}
+.icons i {
+  cursor: pointer;
+}
+.priceRangeContainer {
+  display: flex;
+  flex-direction: column;
+}
